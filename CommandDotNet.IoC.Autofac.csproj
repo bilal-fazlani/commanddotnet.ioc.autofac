@@ -15,7 +15,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Autofac" Version="4.6.2" />
-    <PackageReference Include="CommandDotNet" Version="0.5.14-alpha" />
+    <PackageReference Include="CommandDotNet" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Tests\**" />

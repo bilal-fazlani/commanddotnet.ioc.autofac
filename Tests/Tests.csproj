@@ -9,7 +9,7 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
     <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
     <PackageReference Include="Autofac" Version="4.6.2" />
-    <PackageReference Include="CommandDotNet" Version="0.5.14-alpha" />
+    <PackageReference Include="CommandDotNet" Version="1.0.0" />
     <PackageReference Include="FluentAssertions" Version="4.19.4" />
   </ItemGroup>
   <ItemGroup>
