@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>7.1</LangVersion>
+    <Authors>Bilal Fazlani</Authors>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <AssemblyTitle>CommandDotNet.IoC.Autofac</AssemblyTitle>
+    <Description>Model your command line application interface in a class</Description>
+    <PackageTags>dotnet core; console; argument parse;ioc; dependency injection; commanddotnet</PackageTags>
+    <PackageProjectUrl>https://github.com/bilal-fazlani/commanddotnet.ioc.autofac</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/bilal-fazlani/commanddotnet.ioc.autofac</RepositoryUrl>
+    <NetStandardImplicitPackageVersion>2.0.1</NetStandardImplicitPackageVersion>
+    <PackageIconUrl>https://raw.githubusercontent.com/bilal-fazlani/CommandDotNet/master/images/nuget-icon.png</PackageIconUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.6.2" />
+    <PackageReference Include="CommandDotNet" Version="0.5.14-alpha" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Tests\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Tests\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Tests\**" />
+  </ItemGroup>
+</Project>
