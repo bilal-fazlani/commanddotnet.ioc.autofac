@@ -1,6 +1,7 @@
 using System;
 using Autofac;
 using CommandDotNet;
+using CommandDotNet.Attributes;
 using CommandDotNet.IoC.Autofac;
 using FluentAssertions;
 using Xunit;
@@ -28,6 +29,7 @@ namespace Tests
     
         public class ServiceApp
         {
+            [InjectProperty]
             public IService Service { get; set; }
 
             public int Process()

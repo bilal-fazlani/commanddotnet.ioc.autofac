@@ -11,11 +11,7 @@ namespace CommandDotNet.IoC.Autofac
         {
             _container = container;
         }
-        public T Resolve<T>()
-        {
-            return _container.Resolve<T>();
-        }
-
+        
         public object Resolve(Type type)
         {
             return _container.Resolve(type);
