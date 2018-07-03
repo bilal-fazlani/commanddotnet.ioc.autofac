@@ -6,7 +6,7 @@ namespace CommandDotNet.IoC.Autofac
     {
         public static AppRunner<T> UseAutofac<T>(this AppRunner<T> appRunner, IContainer container) where T :class
         {
-            appRunner.DependencyResolver = new AutofacResolver(container);
+            appRunner.UseDependencyResolver(new AutofacResolver(container));
             return appRunner;
         }
     }
