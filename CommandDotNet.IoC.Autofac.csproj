@@ -13,8 +13,8 @@
     <PackageIconUrl>https://raw.githubusercontent.com/bilal-fazlani/CommandDotNet/master/images/nuget-icon.png</PackageIconUrl>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Autofac" Version="4.8.1" />
-    <PackageReference Include="CommandDotNet" Version="2.6.5" />
+    <PackageReference Include="Autofac" Version="4.9.3" />
+    <PackageReference Include="CommandDotNet" Version="2.8.1" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Tests\**" />
